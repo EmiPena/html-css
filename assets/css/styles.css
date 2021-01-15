@@ -1,0 +1,143 @@
+html,body { position: relative;
+    margin:0; padding:0; background-color:white;width: 1920px; height: 1507px;
+}
+html{display: block;} body{ display: block;}
+/****** parte de arriba*****/
+/*header {width: 100%; height: 80px;}*/
+/*------------*/
+/******CONTE HEADER*****/
+.contehe { position: relative; flex-direction: row; max-width: 1920px; height: 80px;background-color:white;  border: 3px solid #00000029;box-shadow: 3px 0px 6px #00000029}
+/*------------*/
+.logoizq{ position: absolute; width: 569px;}
+.logo{ position: absolute; display: inline; margin-left: 370px; margin-top: 24px;margin-bottom: 25px;}
+.medio{ position: absolute;  width: 224px; margin-left: 569px; margin-bottom: 13px;margin-top: 11px; height: 51px; }
+.medio2{ position: absolute;display: inline-block;width: 300px;height: 51px; margin-left: 793px;margin-bottom: 14px;margin-top: 10px; margin-right: 934px; }
+.oscuro{ font-family: 'Roboto', sans-serif; 
+letter-spacing: 1.68px; font-size: 24px; font-weight: bold;
+	text-decoration: none;color: #0CCB97;}
+.abajo { margin-top: 0px; width: 200px; font-size: 14px; text-align: left;
+font-family: 'Roboto', 'regular'; font-weight: normal;
+letter-spacing: 0.98px;
+color: #707070;
+opacity: 1;}
+.dere { position: absolute;margin-left: 1214px; width: 336px; height: 44px;margin-bottom: 18px;margin-top: 15px;}
+.dere .reg{ width: 160px; height: 44px;float: left; background: #0CCB97 0% 0% no-repeat padding-box;
+border: 1px solid #0CCB97;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+border-radius: 8px;
+text-align: center; font-size: 18px;
+font-family: 'Roboto', 'Regular'; font-weight: normal;
+letter-spacing: 1.26px;
+color: #FFFFFF;
+opacity: 1;}
+.ini{width: 160px; height: 44px; float: right; background: #FFFFFF 0% 0% no-repeat padding-box;
+border: 1px solid #0CCB97;
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+border-radius: 8px;
+text-align: center;font-size: 16px;
+font-family: 'Roboto', 'Regular'; font-weight: normal;
+letter-spacing: 1.12px;
+color: #0CCB97;
+opacity: 1;} 
+.agen{ position: relative; width: 900px;height: 106px; margin-left: 546px; margin-top: 49px; margin-right: 546px;text-indent: 240px;}
+.agen .turno{ text-align: left; font-size: 40px; 
+font-family: 'Roboto', 'Medium'; font-weight: normal; 
+letter-spacing: 2.8px;
+color: #707070;
+    opacity: 1;} 
+.pued{position: relative; width: 828px;height: 106px; margin-left: 613px; margin-top: 13px; margin-right: 613px;}
+.pued .nomb{text-align: left;font-size: 21px;
+font-family: 'Roboto', 'regular'; font-weight: normal;
+letter-spacing: 1.47px;
+color: #707070;
+opacity: 1;}
+table { position: relative; width: 700px; height: 60px; margin-left: 575px;
+         border-color: #707070;
+    border-collapse: collapse;border: none; }
+td{ border-bottom-left-radius: 8px;border-top-left-radius: 8px; }
+/******logoooo****/
+.lupa{ position: absolute; float: left; margin-left: 16px;margin-top: 15px;}
+.sinborder{  border: none; margin-top: 19px;margin-bottom: 17px; margin-left: 56px;margin-right: 8px;
+text-align: left;font-size: 18px; width: 285px;
+font-family: 'Roboto', 'regular'; font-weight: normal;
+letter-spacing: 1.26px;
+color: #707070;
+opacity: 1;}
+.flecha{position: absolute;margin-top: -62px;
+margin-left: 1280px;margin-right: 572px;
+width: 77px; 
+height: 60px; text-align: center;
+background-color: #0CCB97;
+box-shadow: 3px 2px 6px #00000029;
+border: 1px solid #0CCB97;
+border-radius: 0px 8px 8px 0px;
+opacity: 1;}
+.fotomed{ width: 1280px; 
+    height: 401px; margin-left: 320px; margin-top: 50px;
+	background-image: url("../img/mediodoctor.png"); }
+.fotomed #caja1 { margin-left: 50px; margin-bottom: 55px;
+	height:432px;
+	width: 402px;
+	border: none;
+    color:white;
+}
+#caja1 .p1{ margin-top: 113px; margin-bottom: 9px; text-align: center;
+  font-size: 36px;
+font-family: 'Roboto', 'Medium'; font-weight: normal;
+letter-spacing: 2.52px;
+color: #FFFFFF;
+opacity: 1;}
+#caja1 .p2{ height: 19px;  margin-top:9px; margin-bottom: 45px; margin-left: 12px; font-size: 14px;
+font-family: 'Roboto', 'Regular'; font-weight: normal;
+letter-spacing: 0.98px;
+color: #FFFFFF;
+opacity: 1;}
+.fotomed .ini{ display: inline;position: absolute; margin-left: 10px; margin-bottom:114px;}
+.marca{ margin-left: 205px;margin-top: 55px; } #app{margin-left: 29px;}
+/******CONTE HEADER*****/
+.conteba { position: relative;  position: relative; flex-direction: row; max-width: 1550px; height: 252px;
+        margin-top: 49px; margin-left: 370px;}
+.conteba .letra1{position: relative; text-align: left;
+font-family: 'Roboto', 'medium'; font-weight: normal;
+letter-spacing: 1.82px;font-size: 26px;
+color: #707070;
+opacity: 1;}
+.conteba .letra2{position: relative; margin-top: -13px;}
+.conteba .imagen1{position: relative;display: inline-block; }
+.conteba .imagen2{position: relative;display: inline-block; margin-left: 46px;}
+.conteba .imagen3{position: relative;display: inline-block; margin-left: 46px;}
+.conteba .imagen4{position: absolute;display: inline-block;margin-left: 46px;}
+.ima{text-align: left;
+font-family: 'Roboto', 'regular'; font-weight: normal; font-size: 16px;
+letter-spacing: 1.12px;
+color: #707070;
+opacity: 1;}
+/******* FOOTER *******/
+footer { margin-top: 138px; width: 1920px; 
+height: 250px;
+background: #0CCB97; background-image: url("../img/logomed.png");
+  background-repeat: no-repeat; background-position: center;
+opacity: 1;}
+.list{ position: absolute; margin-top: 33px;margin-left: 370px; width: 380px; height: 217px;}
+.list li{list-style:none; margin: 15px;}
+.stilo{text-decoration: none; text-align: left; 
+font-family: 'Roboto', 'medium'; font-weight: normal;
+letter-spacing: 1.26px;font-size: 18px; 
+color: #FFFFFF;
+opacity: 1; }
+.stilo .copy{ opacity: 0.76;position: absolute;margin-top: 178px;margin-left: 780px;}
+
+.desca{ position: absolute; width: 309px; height: 45px; background: #FFFFFF;
+border: 1px solid #0CCB97; margin-left: 1245px;margin-top: 50px; 
+	-webkit-border-radius: 8px;
+	-moz-border-radius: 8px;
+border-radius: 8px; }
+.des{background: none;border: none;margin-top: 9px;margin-left: 57px;
+text-align: center;font-size: 20px;
+font-family: 'Roboto', bold; font-weight: bold; 
+letter-spacing: 1.12px;
+color: #0CCB97;
+opacity: 1;}
+.mart{ position: absolute;margin-top: 7px; margin-left: 20px;}
